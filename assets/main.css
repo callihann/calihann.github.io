@@ -1,0 +1,69 @@
+body {
+        height: 100vh;
+        background: #F5F5F5 bottom/cover url("background.png") no-repeat;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.titleText {
+        position: absolute;
+        width: 50%;
+        height: 30%;
+        left: 6.67%;
+        top: 30%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 96px;
+        line-height: 116px;
+
+        background: linear-gradient(270deg, #47977C 39.1%, #002909 109%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+}
+
+.gitButton {
+        position: absolute;
+        left: 6.67%;
+        right: 76.82%;
+        top: 65.74%;
+        bottom: 27.69%;
+        box-sizing: border-box;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 100%;
+        /* identical to box height, or 36px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.05em;
+        text-transform: capitalize;
+
+        color: #000000;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        margin: auto;
+
+}
+.name {
+        position: absolute;
+        left: 2%;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 100%;
+        /* identical to box height, or 36px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.05em;
+        text-transform: capitalize;
+
+        color: #000000;
+}
